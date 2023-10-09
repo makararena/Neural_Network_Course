@@ -19,7 +19,7 @@ def go(house,rock,attr):
 
     sum_end = np.dot(weight2,out_hidden)
     y = act(sum_end)
-    print('Выходное значение HC:'+ str(y))
+    print('Output HC:'+ str(y))
 
     return y 
 
